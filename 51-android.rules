@@ -1,0 +1,37 @@
+#Acer      0502
+SUBSYSTEM=="usb", SYSFS{idVendor}=="0502", MODE="0666"
+#Dell     413c
+SUBSYSTEM=="usb", SYSFS{idVendor}=="413c", MODE="0666"
+#Foxconn     0489
+SUBSYSTEM=="usb", SYSFS{idVendor}=="0489", MODE="0666"
+#Garmin-Asus     091E
+SUBSYSTEM=="usb", SYSFS{idVendor}=="091e", MODE="0666"
+#HTC     0bb4
+SUBSYSTEM=="usb", SYSFS{idVendor}=="0bb4", MODE="0666"
+#Huawei     12d1
+SUBSYSTEM=="usb", SYSFS{idVendor}=="12d1", MODE="0666"
+#Kyocera     0482
+SUBSYSTEM=="usb", SYSFS{idVendor}=="0482", MODE="0666"
+#LG     1004
+SUBSYSTEM=="usb", SYSFS{idVendor}=="1004", MODE="0666"
+#Motorola     22b8
+SUBSYSTEM=="usb", SYSFS{idVendor}=="22b8", MODE="0666"
+#Nvidia     0955
+SUBSYSTEM=="usb", SYSFS{idVendor}=="0955", MODE="0666"
+#Pantech     10A9
+SUBSYSTEM=="usb", SYSFS{idVendor}=="10A9", MODE="0666"
+#Samsung     04e8
+SUBSYSTEM=="usb", SYSFS{idVendor}=="04e8", MODE="0666"
+#Sharp     04dd
+SUBSYSTEM=="usb", SYSFS{idVendor}=="04dd", MODE="0666"
+#Sony Ericsson     0fce
+SUBSYSTEM=="usb", SYSFS{idVendor}=="0fce", MODE="0666"
+#ZTE     19D2
+SUBSYSTEM=="usb", SYSFS{idVendor}=="19D2", MODE="0666"
+#OPPO     22d9
+SUBSYSTEM=="usb", SYSFS{idVendor}=="22d9", MODE="0666"
+#YuLong     1ebf
+SUBSYSTEM=="usb", SYSFS{idVendor}=="1ebf", MODE="0666"
+
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", MODE="0666"
+
